@@ -2,7 +2,7 @@
 # 🗂️ Bash File Organizer
 
 📌 **Description:**  
-This is a **Bash script** that automatically organizes files in a directory (Desktop or any folder) into respective folders based on **file type**. It ensures that your directories are neatly structured every time, making file management simple and consistent.  
+This is a **Bash script** that automatically organizes files in a directory (Desktop or any folder) into respective folders based on **file type**. It ensures that your directories are neatly structured every time, making file management simple and consistent. Easily able to be expanded on or personalized. 
 
 ---
 
