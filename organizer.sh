@@ -22,7 +22,7 @@ while true; do
 done
 
 
-mkdir -p "$TARGET/images" "$TARGET/documents" "$TARGET/videoaudio" "$TARGET/archives" "$TARGET/dode" "$TARGET/other"
+mkdir -p "$TARGET/images" "$TARGET/documents" "$TARGET/videoaudio" "$TARGET/archives" "$TARGET/code" "$TARGET/other"
 
 
 for file in "$TARGET"/*; do
