@@ -22,7 +22,7 @@ while true; do
 done
 
 
-mkdir -p "$TARGET/Images" "$TARGET/Documents" "$TARGET/Videos" "$TARGET/Archives" "$TARGET/Code" "$TARGET/Other"
+mkdir -p "$TARGET/images" "$TARGET/documents" "$TARGET/videoaudio" "$TARGET/archives" "$TARGET/dode" "$TARGET/other"
 
 
 for file in "$TARGET"/*; do
@@ -36,28 +36,28 @@ for file in "$TARGET"/*; do
 
     case "$extension" in
         png|jpg|jpeg|gif)
-            mv "$file" "$TARGET/Images/"
-            echo "Moved $filename → Images"
+            mv "$file" "$TARGET/images/"
+            echo "Moved $filename → images"
             ;;
         pdf|docx|txt)
-            mv "$file" "$TARGET/Documents/"
-            echo "Moved $filename → Documents"
+            mv "$file" "$TARGET/documents/"
+            echo "Moved $filename → documents"
             ;;
-        mp4|mov)
-            mv "$file" "$TARGET/Videos/"
-            echo "Moved $filename → Videos"
+        mp4|mov|mp3)
+            mv "$file" "$TARGET/videoaudio/"
+            echo "Moved $filename → videoaudio"
             ;;
         zip|rar)
-            mv "$file" "$TARGET/Archives/"
-            echo "Moved $filename → Archives"
+            mv "$file" "$TARGET/archives/"
+            echo "Moved $filename → archives"
             ;;
         py|js|html|css)
-            mv "$file" "$TARGET/Code/"
-            echo "Moved $filename → Code"
+            mv "$file" "$TARGET/code/"
+            echo "Moved $filename → code"
             ;;
         *)
-            mv "$file" "$TARGET/Other/"
-            echo "Moved $filename → Other"
+            mv "$file" "$TARGET/other/"
+            echo "Moved $filename → other"
             ;;
     esac
 done
