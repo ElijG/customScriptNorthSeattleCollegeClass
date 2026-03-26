@@ -25,13 +25,24 @@ This is a **Bash script** that automatically organizes files in a directory (Des
 1. Clone or download the repository:  
 
 ```bash
-git clone <https://github.com/ElijG/customScriptNorthSeattleCollegeClass>
-cd customScriptNorthSeattleCollegeClass>
-add executable privileges: chmod +x customScriptNorthSeattleCollegeClass
-run it with ./
+git clone https://github.com/ElijG/customScriptNorthSeattleCollegeClass
+cd customScriptNorthSeattleCollegeClass
+mv organizer.sh /directory name of things you want organized
+add executable privileges: chmod +x organizer.sh
+run it with ./organizer.sh
+it will then prompt you with what directory you want organized, or if you leave it blank, the current directory.
+
+```
+
+credit: 
+IT 135 class with North Seattle Community college 
+Chatgpt for question assistance
+Linked In Learning Repo
 
 
-credit:
-ChatGPT for assistance
-linkedinlearning repo
-North Seattle College IT 135 class
+Author: 
+Elijah Grife
+last Updated: 3/25/26
+
+
+
