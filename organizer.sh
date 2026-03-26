@@ -43,7 +43,7 @@ for file in "$TARGET"/*; do
             mv "$file" "$TARGET/documents/"
             echo "Moved $filename → documents"
             ;;
-        mp4|mov|mp3)
+        mp4|mov|mp3|.wav)
             mv "$file" "$TARGET/videoaudio/"
             echo "Moved $filename → videoaudio"
             ;;
@@ -51,7 +51,7 @@ for file in "$TARGET"/*; do
             mv "$file" "$TARGET/archives/"
             echo "Moved $filename → archives"
             ;;
-        py|js|html|css)
+        py|js|html|css|sh)
             mv "$file" "$TARGET/code/"
             echo "Moved $filename → code"
             ;;
